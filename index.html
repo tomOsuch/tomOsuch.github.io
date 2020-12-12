@@ -69,6 +69,18 @@
             <button type="button" data-task-edit-button class="datatable__button">Edit</button>
             <button type="button" data-task-delete-button class="datatable__button">Delete</button>
         </fieldset>
+
+        <fieldset class="datatable__row-section datatable__row-section--trello-section">
+            <select class="datatable__select" name="board-name" data-board-name-select>
+                <option disabled selected>--- select an board ---</option>
+            </select>
+            <select class="datatable__select" name="list-name" data-list-name-select>
+                <option disabled selected>--- select a list ---</option>
+            </select>
+            <button type="button" data-trello-card-creation-trigger class="datatable__button datatable__button--card-creation">
+                Create a card
+            </button>
+        </fieldset>
     </form>
 </div>
 
